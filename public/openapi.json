@@ -1,0 +1,162 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "VentureOS API",
+    "version": "1.0.0",
+    "description": "Production REST API endpoints for VentureOS - AI-powered Startup Operating System"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000",
+      "description": "Local development server"
+    }
+  ],
+  "paths": {
+    "/api/auth/login": {
+      "post": {
+        "summary": "Authenticate user session",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "email": { "type": "string" },
+                  "password": { "type": "string" }
+                },
+                "required": ["email", "password"]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": { "description": "Session established" }
+        }
+      }
+    },
+    "/api/v1/startups": {
+      "get": {
+        "summary": "List startups",
+        "responses": {
+          "200": { "description": "List of organizations" }
+        }
+      },
+      "post": {
+        "summary": "Create startup workspace",
+        "responses": {
+          "200": { "description": "Created startup" }
+        }
+      }
+    },
+    "/api/v1/startups/{id}/dashboard": {
+      "get": {
+        "summary": "Get aggregated workspace telemetry",
+        "parameters": [
+          { "name": "id", "in": "path", "required": true, "schema": { "type": "string" } }
+        ],
+        "responses": {
+          "200": { "description": "Dashboard data payload" }
+        }
+      }
+    },
+    "/api/v1/tasks": {
+      "get": {
+        "summary": "List tasks for workspace",
+        "parameters": [
+          { "name": "orgId", "in": "query", "schema": { "type": "string" } }
+        ],
+        "responses": {
+          "200": { "description": "Tasks list" }
+        }
+      },
+      "post": {
+        "summary": "Create task",
+        "responses": {
+          "200": { "description": "Created task" }
+        }
+      }
+    },
+    "/api/v1/finance": {
+      "get": {
+        "summary": "Get financial summary and ledger",
+        "parameters": [
+          { "name": "orgId", "in": "query", "schema": { "type": "string" } }
+        ],
+        "responses": {
+          "200": { "description": "Calculated runway, burn, and transactions" }
+        }
+      },
+      "post": {
+        "summary": "Record income or expense transaction",
+        "responses": {
+          "200": { "description": "Created transaction" }
+        }
+      }
+    },
+    "/api/v1/opportunities": {
+      "get": {
+        "summary": "Search government schemes with eligibility matching",
+        "parameters": [
+          { "name": "orgId", "in": "query", "schema": { "type": "string" } },
+          { "name": "category", "in": "query", "schema": { "type": "string" } },
+          { "name": "q", "in": "query", "schema": { "type": "string" } }
+        ],
+        "responses": {
+          "200": { "description": "Matched opportunities with scores and criteria" }
+        }
+      }
+    },
+    "/api/v1/funding": {
+      "get": {
+        "summary": "Get 8-category readiness, pitch slides, and investor pipeline",
+        "responses": {
+          "200": { "description": "Funding data" }
+        }
+      },
+      "post": {
+        "summary": "Create investor or draft pitch deck",
+        "responses": {
+          "200": { "description": "Success" }
+        }
+      }
+    },
+    "/api/v1/ai": {
+      "post": {
+        "summary": "Chat with AI co-pilot or execute action proposal",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "message": { "type": "string" },
+                  "action": { "type": "string" },
+                  "proposalId": { "type": "string" }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": { "description": "AI response and proposed tool actions" }
+        }
+      }
+    },
+    "/api/v1/community": {
+      "get": {
+        "summary": "List posts or comments",
+        "responses": {
+          "200": { "description": "Community posts" }
+        }
+      },
+      "post": {
+        "summary": "Publish post or reply",
+        "responses": {
+          "200": { "description": "Created post or comment" }
+        }
+      }
+    }
+  }
+}

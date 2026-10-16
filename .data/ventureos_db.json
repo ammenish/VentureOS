@@ -1,0 +1,1022 @@
+{
+  "users": [
+    {
+      "id": "usr_founder_1",
+      "name": "Aarav Sharma",
+      "email": "aarav@pulseai.health",
+      "avatarUrl": "",
+      "role": "Founder & CEO",
+      "experience": "7+ years in HealthTech engineering & product",
+      "location": "Bengaluru, India",
+      "interests": [
+        "Digital Health",
+        "AI Diagnostics",
+        "B2B SaaS"
+      ],
+      "createdAt": "2026-10-13T01:49:45.617Z",
+      "updatedAt": "2026-10-13T01:49:45.619Z"
+    },
+    {
+      "id": "usr_1792132821258",
+      "name": "Manish Bisai",
+      "email": "manishbisai67@gmail.com",
+      "role": "Founder",
+      "createdAt": "2026-10-16T06:40:21.258Z",
+      "updatedAt": "2026-10-16T06:40:21.258Z"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_pulseai",
+      "name": "PulseAI Health",
+      "slug": "pulseai-health",
+      "description": "AI-assisted clinical triage and diagnostic workflow automation platform for outpatient clinics.",
+      "industry": "HealthTech / AI",
+      "businessModel": "B2B SaaS (Monthly recurring subscriptions for clinics)",
+      "targetCustomers": "Tier 1 & Tier 2 polyclinics and diagnostic chains",
+      "geographicMarket": "India & Southeast Asia",
+      "stage": "TRACTION",
+      "teamSize": 5,
+      "productStatus": "Live MVP with 8 pilot clinics onboarded",
+      "revenue": 420000,
+      "fundingHistory": "Bootstrapped with ₹15L founder savings + ₹10L angel angel check",
+      "isRegistered": true,
+      "customerCount": 14,
+      "challenges": [
+        "Shortening clinical trial sales cycles",
+        "Securing Indian government CDSCO and MeitY certifications",
+        "Expanding runway before Series Seed"
+      ],
+      "goals": [
+        "Reach 30 paying polyclinics by Q3",
+        "Apply for Startup India Seed Fund Scheme (SISFS)",
+        "Raise $500K Seed round in 4 months"
+      ],
+      "createdAt": "2026-07-15T01:49:45.619Z",
+      "updatedAt": "2026-10-13T01:49:45.619Z"
+    },
+    {
+      "id": "org_1791868058706",
+      "name": "PulseAI Health",
+      "slug": "pulseai-health",
+      "industry": "HealthTech / AI",
+      "description": "AI-assisted clinical triage and diagnostic workflow automation platform for outpatient polyclinics.",
+      "businessModel": "B2B SaaS (Monthly recurring subscriptions)",
+      "targetCustomers": "Tier 1 & Tier 2 polyclinics and diagnostic chains",
+      "geographicMarket": "India & Southeast Asia",
+      "stage": "MVP",
+      "teamSize": 5,
+      "revenue": 420000,
+      "goals": [
+        "Acquire my first 10-50 paying customers",
+        "Discover government schemes & grants (SISFS, BIRAC)",
+        "Prepare for Angel or Seed fundraising"
+      ],
+      "isRegistered": true,
+      "createdAt": "2026-10-13T05:07:38.706Z",
+      "updatedAt": "2026-10-13T05:07:38.706Z"
+    },
+    {
+      "id": "org_1792132840183",
+      "name": "PulseAI Health",
+      "slug": "pulseai-health",
+      "industry": "HealthTech / AI",
+      "description": "AI-assisted clinical triage and diagnostic workflow automation platform for outpatient polyclinics.",
+      "businessModel": "B2B SaaS (Monthly recurring subscriptions)",
+      "targetCustomers": "Tier 1 & Tier 2 polyclinics and diagnostic chains",
+      "geographicMarket": "India & Southeast Asia",
+      "stage": "TRACTION",
+      "teamSize": 5,
+      "revenue": 420000,
+      "goals": [
+        "Acquire my first 10-50 paying customers",
+        "Discover government schemes & grants (SISFS, BIRAC)",
+        "Prepare for Angel or Seed fundraising"
+      ],
+      "isRegistered": true,
+      "createdAt": "2026-10-16T06:40:40.183Z",
+      "updatedAt": "2026-10-16T06:40:40.183Z"
+    }
+  ],
+  "memberships": [
+    {
+      "id": "mem_1",
+      "userId": "usr_founder_1",
+      "orgId": "org_pulseai",
+      "role": "OWNER",
+      "createdAt": "2026-10-13T01:49:45.619Z"
+    },
+    {
+      "id": "mem_1791868058706",
+      "userId": "usr_founder_1",
+      "orgId": "org_1791868058706",
+      "role": "OWNER",
+      "createdAt": "2026-10-13T05:07:38.706Z"
+    },
+    {
+      "id": "mem_1792132840183",
+      "userId": "usr_founder_1",
+      "orgId": "org_1792132840183",
+      "role": "OWNER",
+      "createdAt": "2026-10-16T06:40:40.183Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_product",
+      "orgId": "org_pulseai",
+      "name": "AI Diagnostic Engine v2.0",
+      "description": "Multi-modal chest X-ray and lab report analysis model pipeline",
+      "status": "ACTIVE",
+      "taskCount": 6,
+      "completedTaskCount": 4,
+      "createdAt": "2026-09-13T01:49:45.619Z",
+      "updatedAt": "2026-10-13T01:49:45.619Z"
+    },
+    {
+      "id": "proj_fundraising",
+      "orgId": "org_pulseai",
+      "name": "Seed Round Preparation",
+      "description": "Data room, pitch deck iteration, and investor outreach tracking",
+      "status": "ACTIVE",
+      "taskCount": 5,
+      "completedTaskCount": 2,
+      "createdAt": "2026-09-23T01:49:45.619Z",
+      "updatedAt": "2026-10-13T01:49:45.619Z"
+    },
+    {
+      "id": "proj_compliance",
+      "orgId": "org_pulseai",
+      "name": "Regulatory & Grants",
+      "description": "Startup India Seed Fund Scheme application & ISO 27001 data audit",
+      "status": "ACTIVE",
+      "taskCount": 4,
+      "completedTaskCount": 1,
+      "createdAt": "2026-09-28T01:49:45.619Z",
+      "updatedAt": "2026-10-13T01:49:45.619Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "tsk_1",
+      "orgId": "org_pulseai",
+      "projectId": "proj_product",
+      "title": "Deploy DICOM image parser microservice",
+      "description": "Integrate high-speed cloud DICOM viewer with secure pre-signed S3 URLs",
+      "status": "COMPLETED",
+      "priority": "HIGH",
+      "assigneeId": "usr_founder_1",
+      "dueDate": "2026-10-08T01:49:45.619Z",
+      "completedAt": "2026-10-09T01:49:45.619Z",
+      "createdAt": "2026-10-03T01:49:45.619Z",
+      "updatedAt": "2026-10-09T01:49:45.619Z"
+    },
+    {
+      "id": "tsk_2",
+      "orgId": "org_pulseai",
+      "projectId": "proj_compliance",
+      "title": "Finalize SISFS Incubator selection",
+      "description": "Compare CIE IIIT Hyderabad vs SINE IIT Bombay for Seed Fund incubator quota",
+      "status": "IN_PROGRESS",
+      "priority": "URGENT",
+      "assigneeId": "usr_founder_1",
+      "dueDate": "2026-10-16T01:49:45.619Z",
+      "createdAt": "2026-10-07T01:49:45.619Z",
+      "updatedAt": "2026-10-13T01:49:45.619Z"
+    },
+    {
+      "id": "tsk_3",
+      "orgId": "org_pulseai",
+      "projectId": "proj_fundraising",
+      "title": "Update unit economics slide in Pitch Deck",
+      "description": "Incorporate ₹4.2L MRR, ₹35K CAC, and 14-month LTV based on Q1 clinic retention",
+      "status": "TODO",
+      "priority": "HIGH",
+      "assigneeId": "usr_founder_1",
+      "dueDate": "2026-10-18T01:49:45.619Z",
+      "createdAt": "2026-10-10T01:49:45.619Z",
+      "updatedAt": "2026-10-13T01:49:45.619Z"
+    },
+    {
+      "id": "tsk_4",
+      "orgId": "org_pulseai",
+      "projectId": "proj_product",
+      "title": "Optimize inference latency to < 1.8 seconds",
+      "description": "Benchmark TensorRT vs ONNX runtime on AWS g5.xlarge instances",
+      "status": "IN_PROGRESS",
+      "priority": "MEDIUM",
+      "assigneeId": "usr_founder_1",
+      "dueDate": "2026-10-21T01:49:45.619Z",
+      "createdAt": "2026-10-09T01:49:45.619Z",
+      "updatedAt": "2026-10-13T01:49:45.619Z"
+    },
+    {
+      "id": "tsk_5",
+      "orgId": "org_pulseai",
+      "projectId": "proj_fundraising",
+      "title": "Schedule intro call with Kalaari Capital HealthTech lead",
+      "description": "Send forwardable blurb through warm intro via IIT Madras alumni network",
+      "status": "TODO",
+      "priority": "MEDIUM",
+      "assigneeId": "usr_founder_1",
+      "dueDate": "2026-10-23T01:49:45.619Z",
+      "createdAt": "2026-10-11T01:49:45.619Z",
+      "updatedAt": "2026-10-13T01:49:45.619Z"
+    },
+    {
+      "id": "tsk_6",
+      "orgId": "org_pulseai",
+      "projectId": "proj_compliance",
+      "title": "Complete DPDP (Digital Personal Data Protection) readiness check",
+      "description": "Audit patient data anonymization protocols and consent log flows",
+      "status": "BACKLOG",
+      "priority": "LOW",
+      "assigneeId": "usr_founder_1",
+      "dueDate": "2026-10-31T01:49:45.619Z",
+      "createdAt": "2026-10-12T01:49:45.619Z",
+      "updatedAt": "2026-10-13T01:49:45.619Z"
+    }
+  ],
+  "milestones": [
+    {
+      "id": "mls_1",
+      "orgId": "org_pulseai",
+      "title": "Problem Validation & 20 Doctor Interviews",
+      "description": "Confirmed urgent pain in manual report summarization and triage overload",
+      "stage": "VALIDATION",
+      "isCompleted": true,
+      "order": 1,
+      "completedAt": "2026-07-30T01:49:45.619Z",
+      "createdAt": "2026-07-15T01:49:45.619Z"
+    },
+    {
+      "id": "mls_2",
+      "orgId": "org_pulseai",
+      "title": "Alpha MVP Prototype in 3 Pilot Clinics",
+      "description": "Deployed on-premise gateway with 94.2% diagnostic concordance rate",
+      "stage": "MVP",
+      "isCompleted": true,
+      "order": 2,
+      "completedAt": "2026-08-29T01:49:45.619Z",
+      "createdAt": "2026-08-04T01:49:45.619Z"
+    },
+    {
+      "id": "mls_3",
+      "orgId": "org_pulseai",
+      "title": "Commercial Launch & First 10 Paid Clinics",
+      "description": "Generated initial recurring B2B software revenue",
+      "stage": "LAUNCH",
+      "isCompleted": true,
+      "order": 3,
+      "completedAt": "2026-09-28T01:49:45.619Z",
+      "createdAt": "2026-09-03T01:49:45.619Z"
+    },
+    {
+      "id": "mls_4",
+      "orgId": "org_pulseai",
+      "title": "Scale to ₹10L MRR ($12K/mo) & 35 Clinics",
+      "description": "Establish repeatable organic referral playbook among diagnostic labs",
+      "stage": "TRACTION",
+      "isCompleted": false,
+      "order": 4,
+      "targetDate": "2026-11-27T01:49:45.619Z",
+      "createdAt": "2026-09-28T01:49:45.619Z"
+    },
+    {
+      "id": "mls_5",
+      "orgId": "org_pulseai",
+      "title": "Close $500K Institutional Seed Round",
+      "description": "Secure lead VC term sheet and syndicate angels for scale",
+      "stage": "FUNDING",
+      "isCompleted": false,
+      "order": 5,
+      "targetDate": "2027-01-11T01:49:45.619Z",
+      "createdAt": "2026-10-03T01:49:45.619Z"
+    },
+    {
+      "id": "mls_1791868058708_1",
+      "orgId": "org_1791868058706",
+      "title": "Validate core value proposition with 10 target users",
+      "description": "Gather structured qualitative feedback",
+      "stage": "MVP",
+      "isCompleted": false,
+      "order": 1,
+      "createdAt": "2026-10-13T05:07:38.708Z"
+    },
+    {
+      "id": "mls_1791868058710_2",
+      "orgId": "org_1791868058706",
+      "title": "Deploy V1 production release",
+      "description": "Deliver MVP with telemetry and onboarding flow",
+      "stage": "MVP",
+      "isCompleted": false,
+      "order": 2,
+      "createdAt": "2026-10-13T05:07:38.710Z"
+    },
+    {
+      "id": "mls_1792132840184_1",
+      "orgId": "org_1792132840183",
+      "title": "Validate core value proposition with 10 target users",
+      "description": "Gather structured qualitative feedback",
+      "stage": "TRACTION",
+      "isCompleted": false,
+      "order": 1,
+      "createdAt": "2026-10-16T06:40:40.184Z"
+    },
+    {
+      "id": "mls_1792132840209_2",
+      "orgId": "org_1792132840183",
+      "title": "Deploy V1 production release",
+      "description": "Deliver MVP with telemetry and onboarding flow",
+      "stage": "TRACTION",
+      "isCompleted": false,
+      "order": 2,
+      "createdAt": "2026-10-16T06:40:40.209Z"
+    }
+  ],
+  "goals": [
+    {
+      "id": "gol_1",
+      "orgId": "org_pulseai",
+      "title": "Reach ₹10,00,000 Monthly Recurring Revenue",
+      "description": "Expand polyclinic onboarding from current 14 to 35 clinics",
+      "targetDate": "2026-12-12T01:49:45.619Z",
+      "progress": 42,
+      "isCompleted": false,
+      "createdAt": "2026-10-13T01:49:45.619Z"
+    },
+    {
+      "id": "gol_2",
+      "orgId": "org_pulseai",
+      "title": "Submit Startup India Seed Fund (SISFS) Grant Application",
+      "description": "Target ₹20 Lakhs non-dilutive prototype/validation grant",
+      "targetDate": "2026-10-27T01:49:45.619Z",
+      "progress": 70,
+      "isCompleted": false,
+      "createdAt": "2026-10-13T01:49:45.619Z"
+    },
+    {
+      "id": "gol_3",
+      "orgId": "org_pulseai",
+      "title": "Extend Cash Runway to > 12 Months",
+      "description": "Maintain net burn under ₹1.8L while scaling client contracts",
+      "targetDate": "2027-01-11T01:49:45.619Z",
+      "progress": 85,
+      "isCompleted": false,
+      "createdAt": "2026-10-13T01:49:45.619Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx_1",
+      "orgId": "org_pulseai",
+      "type": "INCOME",
+      "amount": 140000,
+      "category": "Subscriptions",
+      "description": "Metro Diagnostic Labs - Enterprise Annual Tier (Quarterly installment)",
+      "date": "2026-10-11T01:49:45.619Z",
+      "createdAt": "2026-10-13T01:49:45.619Z"
+    },
+    {
+      "id": "tx_2",
+      "orgId": "org_pulseai",
+      "type": "INCOME",
+      "amount": 95000,
+      "category": "Subscriptions",
+      "description": "CareFirst Polyclinic Chain - 3 Branch SaaS License",
+      "date": "2026-10-05T01:49:45.619Z",
+      "createdAt": "2026-10-13T01:49:45.619Z"
+    },
+    {
+      "id": "tx_3",
+      "orgId": "org_pulseai",
+      "type": "INCOME",
+      "amount": 185000,
+      "category": "Subscriptions",
+      "description": "Apex Radiology & Diagnostics - Monthly triage license",
+      "date": "2026-09-25T01:49:45.619Z",
+      "createdAt": "2026-10-13T01:49:45.619Z"
+    },
+    {
+      "id": "tx_4",
+      "orgId": "org_pulseai",
+      "type": "EXPENSE",
+      "amount": 88000,
+      "category": "Cloud Infrastructure",
+      "description": "AWS GPU Instances (EC2 g5.xlarge + Bedrock Inference APIs)",
+      "date": "2026-10-08T01:49:45.619Z",
+      "createdAt": "2026-10-13T01:49:45.619Z"
+    },
+    {
+      "id": "tx_5",
+      "orgId": "org_pulseai",
+      "type": "EXPENSE",
+      "amount": 120000,
+      "category": "Salaries & Payroll",
+      "description": "Full-stack ML engineer & data annotation stipend",
+      "date": "2026-10-03T01:49:45.619Z",
+      "createdAt": "2026-10-13T01:49:45.619Z"
+    },
+    {
+      "id": "tx_6",
+      "orgId": "org_pulseai",
+      "type": "EXPENSE",
+      "amount": 18500,
+      "category": "Software & Tools",
+      "description": "GitHub Enterprise, Notion, Slack, Google Workspace",
+      "date": "2026-10-01T01:49:45.619Z",
+      "createdAt": "2026-10-13T01:49:45.619Z"
+    },
+    {
+      "id": "tx_7",
+      "orgId": "org_pulseai",
+      "type": "EXPENSE",
+      "amount": 15000,
+      "category": "Legal & Compliance",
+      "description": "DPIIT startup recognition renewal & CA retainership",
+      "date": "2026-09-18T01:49:45.619Z",
+      "createdAt": "2026-10-13T01:49:45.619Z"
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "opp_sisfs",
+      "name": "Startup India Seed Fund Scheme (SISFS)",
+      "provider": "Department for Promotion of Industry and Internal Trade (DPIIT), Govt. of India",
+      "category": "GOVERNMENT_SCHEME",
+      "description": "Financial assistance to startups for proof of concept, prototype development, product trials, market entry, and commercialization through approved incubators across India.",
+      "eligibleIndustries": [
+        "HealthTech",
+        "AI",
+        "SaaS",
+        "DeepTech",
+        "Agritech",
+        "CleanTech",
+        "All Tech"
+      ],
+      "eligibleLocations": [
+        "All India"
+      ],
+      "eligibleStages": [
+        "VALIDATION",
+        "MVP",
+        "LAUNCH",
+        "TRACTION"
+      ],
+      "eligibilityRequirements": [
+        "DPIIT recognized startup",
+        "Incorporated not more than 2 years ago at the time of application",
+        "Must have a business idea to develop a product or service with a market fit, viable commercialization scope, and scope of scaling",
+        "Startup should not have received more than ₹10 Lakhs of monetary support under any other Central or State Government scheme"
+      ],
+      "benefits": [
+        "Up to ₹20 Lakhs grant for validation of Proof of Concept, prototype development, or product trials",
+        "Up to ₹50 Lakhs of investment through convertible debentures or debt for market entry and scaling",
+        "Mentorship and incubation support through top national incubators"
+      ],
+      "applicationDeadline": "Open Round (Quarterly incubator review cycle)",
+      "requiredDocuments": [
+        "DPIIT Recognition Certificate (Certificate of Recognition)",
+        "Certificate of Incorporation (MCA)",
+        "Pitch Deck / Business Proposal PDF",
+        "Audited Balance Sheet or Bank Statements",
+        "Founder Aadhaar and PAN documents"
+      ],
+      "officialSourceUrl": "https://seedfund.startupindia.gov.in/",
+      "lastVerifiedDate": "2026-04-10",
+      "status": "ACTIVE",
+      "isDemo": false,
+      "createdAt": "2026-10-13T01:49:45.619Z"
+    },
+    {
+      "id": "opp_birac_big",
+      "name": "Biotechnology Ignition Grant (BIG Scheme)",
+      "provider": "Biotechnology Industry Research Assistance Council (BIRAC), Dept of Biotechnology",
+      "category": "GRANT",
+      "description": "Flagship grant program fostering early-stage biotech, medtech, diagnostics, and digital healthcare innovations with high commercialization potential.",
+      "eligibleIndustries": [
+        "HealthTech / AI",
+        "Biotechnology",
+        "MedTech",
+        "Diagnostic Devices"
+      ],
+      "eligibleLocations": [
+        "All India"
+      ],
+      "eligibleStages": [
+        "IDEA",
+        "VALIDATION",
+        "MVP"
+      ],
+      "eligibilityRequirements": [
+        "Registered Indian company with minimum 51% shareholding by Indian citizens",
+        "Company age less than 5 years",
+        "Project proposal must possess clear medical or biotechnological novelty and proof-of-concept focus",
+        "Applicant must have registered with a BIRAC BIG Partner incubator"
+      ],
+      "benefits": [
+        "Up to ₹50 Lakhs (100% non-dilutive grant-in-aid)",
+        "Mentorship by clinicians, biotech leaders, and regulatory experts",
+        "Access to specialized instrumentation labs and testbeds"
+      ],
+      "applicationDeadline": "Calls announce bi-annually (Next: June 30, 2026)",
+      "requiredDocuments": [
+        "Detailed R&D Project Proposal with Gantt Chart",
+        "Preliminary Concordance or Lab Validation Data",
+        "Company Registration & Shareholding Pattern",
+        "Clinical Advisory Board endorsement letter"
+      ],
+      "officialSourceUrl": "https://birac.nic.in/big.php",
+      "lastVerifiedDate": "2026-04-05",
+      "status": "ACTIVE",
+      "isDemo": false,
+      "createdAt": "2026-10-13T01:49:45.619Z"
+    },
+    {
+      "id": "opp_meity_tide",
+      "name": "MeitY TIDE 2.0 (Technology Incubation & Development)",
+      "provider": "Ministry of Electronics and Information Technology (MeitY), Startup Hub",
+      "category": "STARTUP_PROGRAM",
+      "description": "Scheme promoting tech entrepreneurship through financial and technical support to incubators engaged in supporting ICT startups using emerging technologies like IoT, AI, BlockChain, and Robotics.",
+      "eligibleIndustries": [
+        "AI",
+        "HealthTech",
+        "Cybersecurity",
+        "Fintech",
+        "Enterprise SaaS"
+      ],
+      "eligibleLocations": [
+        "All India"
+      ],
+      "eligibleStages": [
+        "IDEA",
+        "VALIDATION",
+        "MVP",
+        "LAUNCH"
+      ],
+      "eligibilityRequirements": [
+        "Working on emerging technology (AI, Machine Learning, IoT, Data Science)",
+        "Early stage with scalable technology architecture",
+        "Must incubate physically or virtually with an empaneled G1/G2 TIDE center"
+      ],
+      "benefits": [
+        "Entrepreneur-in-Residence (EiR) fellowship up to ₹4 Lakhs",
+        "Grant-in-Aid for prototype development up to ₹7 Lakhs",
+        "Scale-up funding support up to ₹40 Lakhs through TIDE 2.0 centers"
+      ],
+      "applicationDeadline": "Rolling admissions via MeitY Startup Hub",
+      "requiredDocuments": [
+        "Tech Architecture Whitepaper",
+        "Founder CV and Academic credentials",
+        "Demo Video or Prototype URL",
+        "Budget breakdown with fund utilization plan"
+      ],
+      "officialSourceUrl": "https://meitystartuphub.in/schemes/tide-2-0",
+      "lastVerifiedDate": "2026-04-01",
+      "status": "ACTIVE",
+      "isDemo": false,
+      "createdAt": "2026-10-13T01:49:45.619Z"
+    },
+    {
+      "id": "opp_nidhi_prayas",
+      "name": "NIDHI-PRAYAS (Promoting and Accelerating Young and Aspiring Innovators)",
+      "provider": "Department of Science & Technology (DST), Govt. of India",
+      "category": "GRANT",
+      "description": "Support from Idea-to-Prototype for young innovators. Provides prototype grant funding to address the gap between idea validation and prototype development.",
+      "eligibleIndustries": [
+        "DeepTech",
+        "Hardware",
+        "IoT",
+        "HealthTech",
+        "CleanTech"
+      ],
+      "eligibleLocations": [
+        "All India"
+      ],
+      "eligibleStages": [
+        "IDEA",
+        "VALIDATION"
+      ],
+      "eligibilityRequirements": [
+        "Individual innovators or startups registered within 3 years",
+        "Focus on physical prototype or tangible hardware/software integration",
+        "Ownership of intellectual property by Indian promoters"
+      ],
+      "benefits": [
+        "Up to ₹10 Lakhs prototype development grant",
+        "Access to PRAYAS Shala (maker-labs & rapid fabrication facilities)",
+        "Technical mentorship from university research professors"
+      ],
+      "applicationDeadline": "Next cycle closes August 15, 2026",
+      "requiredDocuments": [
+        "Prototype Design Schematics and Bill of Materials (BOM)",
+        "Patent search or prior art clearance report",
+        "Identity and Indian domicile proofs"
+      ],
+      "officialSourceUrl": "https://www.nidhi-prayas.org/",
+      "lastVerifiedDate": "2026-03-28",
+      "status": "ACTIVE",
+      "isDemo": false,
+      "createdAt": "2026-10-13T01:49:45.619Z"
+    },
+    {
+      "id": "opp_india_ai_mission",
+      "name": "IndiaAI Mission - GPU Compute & Innovation Vouchers",
+      "provider": "IndiaAI / Digital India Corporation (DIC), Govt. of India",
+      "category": "SUBSIDY",
+      "description": "National AI initiative granting subsidized access to 10,000+ AI compute GPUs, foundational model testbeds, and direct innovation grants for Indian sovereign AI builders.",
+      "eligibleIndustries": [
+        "AI",
+        "HealthTech / AI",
+        "Language Tech",
+        "DeepTech"
+      ],
+      "eligibleLocations": [
+        "All India"
+      ],
+      "eligibleStages": [
+        "MVP",
+        "LAUNCH",
+        "TRACTION",
+        "GROWTH"
+      ],
+      "eligibilityRequirements": [
+        "Indian registered entity or academic spin-off",
+        "Utilizing deep neural network training or high-throughput inference",
+        "Compliance with Responsible AI guidelines and data residency inside India"
+      ],
+      "benefits": [
+        "Up to ₹25 Lakhs equivalent in subsidized cloud GPU compute credits",
+        "Access to curated national public health and Indic multimodal datasets",
+        "Fast-track integration with National Digital Health Mission (ABDM) sandbox"
+      ],
+      "applicationDeadline": "Open Portal - Continuous intake",
+      "requiredDocuments": [
+        "Compute workload sizing estimation (TFLOPS / GPU Hours)",
+        "Data privacy architecture document",
+        "DPIIT Certificate"
+      ],
+      "officialSourceUrl": "https://indiaai.gov.in/",
+      "lastVerifiedDate": "2026-04-12",
+      "status": "ACTIVE",
+      "isDemo": false,
+      "createdAt": "2026-10-13T01:49:45.619Z"
+    },
+    {
+      "id": "opp_cie_iiith",
+      "name": "CIE IIIT Hyderabad MedTech & AI Accelerator",
+      "provider": "Center for Innovation & Entrepreneurship, IIIT Hyderabad",
+      "category": "ACCELERATOR",
+      "description": "6-month intensive accelerator for early-stage DeepTech and HealthTech ventures providing tech research lab access, corporate pilot connects, and ₹25L-₹40L seed capital.",
+      "eligibleIndustries": [
+        "AI",
+        "HealthTech",
+        "Computer Vision",
+        "Robotics"
+      ],
+      "eligibleLocations": [
+        "Hyderabad / Pan-India with hybrid attendance"
+      ],
+      "eligibleStages": [
+        "MVP",
+        "LAUNCH",
+        "TRACTION"
+      ],
+      "eligibilityRequirements": [
+        "Strong technical founder or research team",
+        "Functional working prototype with measurable benchmark data",
+        "Commitment to 6-month structured program milestones"
+      ],
+      "benefits": [
+        "₹25 Lakhs initial seed capital with follow-on syndicate access",
+        "Direct research mentorship from IIIT-H CVIT / Kohli AI research labs",
+        "Pilots with 15+ network hospital chains across Telangana & Karnataka"
+      ],
+      "applicationDeadline": "Cohort 18 applications close May 30, 2026",
+      "requiredDocuments": [
+        "Product Pitch Deck (12 slides)",
+        "Technical Architecture Overview",
+        "Customer Testimonials or LOIs"
+      ],
+      "officialSourceUrl": "https://cie.iiit.ac.in/",
+      "lastVerifiedDate": "2026-04-08",
+      "status": "ACTIVE",
+      "isDemo": false,
+      "createdAt": "2026-10-13T01:49:45.619Z"
+    }
+  ],
+  "investors": [
+    {
+      "id": "inv_1",
+      "orgId": "org_pulseai",
+      "name": "Dr. Rohini Varma",
+      "firm": "HealthX Capital",
+      "stage": "Seed to Series A",
+      "sectors": [
+        "HealthTech",
+        "Digital Diagnostics",
+        "B2B SaaS"
+      ],
+      "ticketSize": "$250K - $1M",
+      "contactEmail": "rohini@healthx.vc",
+      "linkedInUrl": "https://linkedin.com/in/rohinivarma-healthx",
+      "dealStage": "MEETING_SCHEDULED",
+      "notes": "Deeply interested in our polyclinic triage speed metrics. Pitch scheduled for next Tuesday 3 PM.",
+      "lastContactDate": "2026-10-10T01:49:45.619Z",
+      "nextFollowUpDate": "2026-10-15T01:49:45.619Z",
+      "createdAt": "2026-10-13T01:49:45.619Z"
+    },
+    {
+      "id": "inv_2",
+      "orgId": "org_pulseai",
+      "name": "Vikram Sengupta",
+      "firm": "Blume Ventures",
+      "stage": "Pre-Seed / Seed",
+      "sectors": [
+        "AI / ML",
+        "Enterprise B2B",
+        "FinTech"
+      ],
+      "ticketSize": "$300K - $750K",
+      "contactEmail": "vikram@blume.vc",
+      "linkedInUrl": "https://linkedin.com/in/vikramsengupta-blume",
+      "dealStage": "IN_DISCUSSION",
+      "notes": "Reviewing clinic cohort retention metrics and pricing model. Requested customer references.",
+      "lastContactDate": "2026-10-06T01:49:45.619Z",
+      "nextFollowUpDate": "2026-10-17T01:49:45.619Z",
+      "createdAt": "2026-10-13T01:49:45.619Z"
+    },
+    {
+      "id": "inv_3",
+      "orgId": "org_pulseai",
+      "name": "Siddharth Mehta",
+      "firm": "Surge / Peak XV",
+      "stage": "Early Stage",
+      "sectors": [
+        "DeepTech",
+        "AI",
+        "SaaS"
+      ],
+      "ticketSize": "$500K - $2M",
+      "contactEmail": "smehta@peakxv.com",
+      "dealStage": "IDENTIFIED",
+      "notes": "Targeting next Surge cohort. Warm intro requested through IIT alumni partner.",
+      "createdAt": "2026-10-13T01:49:45.619Z"
+    },
+    {
+      "id": "inv_4",
+      "orgId": "org_pulseai",
+      "name": "Ananya Deshmukh",
+      "firm": "Kalaari Capital",
+      "stage": "Seed",
+      "sectors": [
+        "HealthTech",
+        "Consumer & Enterprise Tech"
+      ],
+      "ticketSize": "$500K - $1.5M",
+      "contactEmail": "ananya@kalaari.com",
+      "dealStage": "CONTACTED",
+      "notes": "Intro email sent with 1-page teaser. Awaiting reply.",
+      "lastContactDate": "2026-10-08T01:49:45.619Z",
+      "createdAt": "2026-10-13T01:49:45.619Z"
+    }
+  ],
+  "conversations": [],
+  "actionProposals": [
+    {
+      "id": "prop_1791856493729_1",
+      "conversationId": "convo_1791856493728",
+      "messageId": "msg_1791856493729",
+      "toolName": "create_task",
+      "arguments": {
+        "title": "Prepare 1-page Clinic Retention Cohort Memo for HealthX Capital",
+        "priority": "HIGH",
+        "projectId": "proj_fundraising",
+        "dueDate": "2026-10-16T01:54:53.729Z"
+      },
+      "description": "Create high-priority task: Prepare Clinic Retention Cohort Memo for HealthX Capital meeting",
+      "status": "PENDING",
+      "createdAt": "2026-10-13T01:54:53.729Z"
+    },
+    {
+      "id": "prop_1792137721823",
+      "conversationId": "convo_1792137718114",
+      "messageId": "msg_1792137721823",
+      "toolName": "create_task",
+      "arguments": {
+        "title": "Build Runway & Burn Dashboard",
+        "priority": "URGENT",
+        "projectId": "proj_fundraising",
+        "description": "Create a weekly‑updated KPI dashboard tracking cash balance, net burn, MRR, and runway (cash‑only & cash+MRR). Set alerts for cash‑balance dip >5%.",
+        "dueDate": "2026-10-21T08:02:01.823Z"
+      },
+      "description": "Create a weekly‑updated KPI dashboard tracking cash balance, net burn, MRR, and runway (cash‑only & cash+MRR). Set alerts for cash‑balance dip >5%.",
+      "status": "PENDING",
+      "createdAt": "2026-10-16T08:02:01.823Z"
+    },
+    {
+      "id": "prop_1792137839306",
+      "conversationId": "convo_1792137835191",
+      "messageId": "msg_1792137839306",
+      "toolName": "create_task",
+      "arguments": {
+        "title": "Finalize SISFS incubator selection & submit grant",
+        "priority": "URGENT",
+        "projectId": "proj_fundraising",
+        "description": "Compare incubator offers, sign MoU with chosen incubator, complete and submit the Startup India Seed Fund Scheme application by Thursday EOD.",
+        "dueDate": "2026-10-21T08:03:59.306Z"
+      },
+      "description": "Compare incubator offers, sign MoU with chosen incubator, complete and submit the Startup India Seed Fund Scheme application by Thursday EOD.",
+      "status": "PENDING",
+      "createdAt": "2026-10-16T08:03:59.306Z"
+    },
+    {
+      "id": "prop_1792138054467",
+      "conversationId": "convo_1792138050641",
+      "messageId": "msg_1792138054467",
+      "toolName": "create_task",
+      "arguments": {
+        "title": "Deploy DICOM Image‑Parser Microservice",
+        "priority": "URGENT",
+        "projectId": "proj_product",
+        "description": "Build, containerise, and integrate the DICOM parser microservice; run end‑to‑end test with a pilot clinic and produce a 2‑minute demo video for grant and sales use.",
+        "dueDate": "2026-10-21T08:07:34.467Z"
+      },
+      "description": "Build, containerise, and integrate the DICOM parser microservice; run end‑to‑end test with a pilot clinic and produce a 2‑minute demo video for grant and sales use.",
+      "status": "PENDING",
+      "createdAt": "2026-10-16T08:07:34.467Z"
+    }
+  ],
+  "posts": [
+    {
+      "id": "post_1",
+      "authorId": "usr_founder_1",
+      "title": "How we signed our first 10 polyclinics without spending on paid ads",
+      "content": "When we launched PulseAI, we thought cold LinkedIn outreach would work. It didn't. Doctors are busy and rarely check DMs. What actually worked was offering a zero-friction 14-day shadowing trial during evening OPD hours. Here are the 3 key takeaways that changed our sales conversion from 4% to 32%...",
+      "topic": "Growth & Sales",
+      "commentCount": 6,
+      "reactionCount": 24,
+      "createdAt": "2026-10-09T01:49:45.619Z",
+      "updatedAt": "2026-10-09T01:49:45.619Z"
+    },
+    {
+      "id": "post_2",
+      "authorId": "usr_founder_2",
+      "title": "Navigating DPIIT recognition and Startup India Tax Exemption (80-IAC) in 2026",
+      "content": "A complete checklist for founders preparing their Inter-Ministerial Board (IMB) application. Make sure your pitch deck clearly highlights technological innovation over mere operational service aggregation.",
+      "topic": "Legal & Grants",
+      "commentCount": 9,
+      "reactionCount": 41,
+      "createdAt": "2026-10-05T01:49:45.619Z",
+      "updatedAt": "2026-10-05T01:49:45.619Z"
+    },
+    {
+      "id": "post_3",
+      "authorId": "usr_founder_3",
+      "title": "AI Inference Latency vs Cost: Why we shifted from proprietary models to fine-tuned SLMs",
+      "content": "Sharing our benchmark data comparing proprietary cloud APIs against open weights running on local instances. Saved 68% monthly infra cost while cutting P95 latency to 1.4s.",
+      "topic": "Tech & Architecture",
+      "commentCount": 14,
+      "reactionCount": 52,
+      "createdAt": "2026-10-01T01:49:45.619Z",
+      "updatedAt": "2026-10-01T01:49:45.619Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": "cmt_1",
+      "postId": "post_1",
+      "authorId": "usr_founder_2",
+      "content": "Spot on about evening OPDs. Doctors are much more receptive when patient rush winds down around 8 PM.",
+      "createdAt": "2026-10-10T01:49:45.619Z"
+    },
+    {
+      "id": "cmt_2",
+      "postId": "post_1",
+      "authorId": "usr_founder_3",
+      "content": "Did you encounter pushback on data privacy during that trial period? How did you address consent?",
+      "createdAt": "2026-10-11T01:49:45.619Z"
+    }
+  ],
+  "documents": [
+    {
+      "id": "doc_1",
+      "orgId": "org_pulseai",
+      "name": "PulseAI_Seed_PitchDeck_v2.4.pdf",
+      "category": "pitch_deck",
+      "size": "4.8 MB",
+      "url": "/docs/PulseAI_Seed_PitchDeck_v2.4.pdf",
+      "uploadedAt": "2026-10-07T01:49:45.619Z"
+    },
+    {
+      "id": "doc_2",
+      "orgId": "org_pulseai",
+      "name": "Financial_Model_Runway_Projection_2026.xlsx",
+      "category": "financials",
+      "size": "1.2 MB",
+      "url": "/docs/Financial_Model_Runway_Projection_2026.xlsx",
+      "uploadedAt": "2026-10-03T01:49:45.619Z"
+    },
+    {
+      "id": "doc_3",
+      "orgId": "org_pulseai",
+      "name": "DPIIT_Recognition_Certificate.pdf",
+      "category": "legal",
+      "size": "420 KB",
+      "url": "/docs/DPIIT_Recognition_Certificate.pdf",
+      "uploadedAt": "2026-09-03T01:49:45.619Z"
+    },
+    {
+      "id": "doc_4",
+      "orgId": "org_pulseai",
+      "name": "Clinical_Triage_Concordance_Study_Report.pdf",
+      "category": "research",
+      "size": "3.1 MB",
+      "url": "/docs/Clinical_Triage_Concordance_Study_Report.pdf",
+      "uploadedAt": "2026-09-23T01:49:45.619Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log_1792138109662",
+      "orgId": "org_pulseai",
+      "userId": "usr_founder_1",
+      "action": "AI_QUERY_COMPLETED",
+      "entity": "AIConversation",
+      "details": "Processed prompt \"Analyze my business performance & burn...\" in 4576ms via Groq",
+      "createdAt": "2026-10-16T08:08:29.662Z"
+    },
+    {
+      "id": "log_1792138089638",
+      "orgId": "org_pulseai",
+      "userId": "usr_founder_1",
+      "action": "AI_QUERY_COMPLETED",
+      "entity": "AIConversation",
+      "details": "Processed prompt \"Find relevant government schemes...\" in 4167ms via Groq",
+      "createdAt": "2026-10-16T08:08:09.638Z"
+    },
+    {
+      "id": "log_1792138054469",
+      "orgId": "org_pulseai",
+      "userId": "usr_founder_1",
+      "action": "AI_QUERY_COMPLETED",
+      "entity": "AIConversation",
+      "details": "Processed prompt \"What should I prioritize this week?...\" in 3828ms via Groq",
+      "createdAt": "2026-10-16T08:07:34.469Z"
+    },
+    {
+      "id": "log_1792137867127",
+      "orgId": "org_pulseai",
+      "userId": "usr_founder_1",
+      "action": "AI_QUERY_COMPLETED",
+      "entity": "AIConversation",
+      "details": "Processed prompt \"Analyze my business performance & burn...\" in 3698ms via Groq",
+      "createdAt": "2026-10-16T08:04:27.127Z"
+    },
+    {
+      "id": "log_1792137839421",
+      "orgId": "org_pulseai",
+      "userId": "usr_founder_1",
+      "action": "AI_QUERY_COMPLETED",
+      "entity": "AIConversation",
+      "details": "Processed prompt \"What should I prioritize this week?...\" in 4230ms via Groq",
+      "createdAt": "2026-10-16T08:03:59.421Z"
+    },
+    {
+      "id": "log_1792137721941",
+      "orgId": "org_pulseai",
+      "userId": "usr_founder_1",
+      "action": "AI_QUERY_COMPLETED",
+      "entity": "AIConversation",
+      "details": "Processed prompt \"Runway & burn analysis...\" in 3827ms via Groq",
+      "createdAt": "2026-10-16T08:02:01.941Z"
+    },
+    {
+      "id": "log_1792137675235",
+      "orgId": "org_pulseai",
+      "userId": "usr_founder_1",
+      "action": "AI_QUERY_COMPLETED",
+      "entity": "AIConversation",
+      "details": "Processed prompt \"What are our top 3 priorities this week?...\" in 4006ms via Groq",
+      "createdAt": "2026-10-16T08:01:15.235Z"
+    },
+    {
+      "id": "log_1792133751027",
+      "orgId": "org_pulseai",
+      "userId": "usr_founder_1",
+      "action": "AI_QUERY_COMPLETED",
+      "entity": "AIConversation",
+      "details": "Processed prompt \"h9i...\" in 2ms",
+      "createdAt": "2026-10-16T06:55:51.027Z"
+    },
+    {
+      "id": "log_1791856493731",
+      "orgId": "org_pulseai",
+      "userId": "usr_founder_1",
+      "action": "AI_QUERY_COMPLETED",
+      "entity": "AIConversation",
+      "details": "Processed prompt \"What should I prioritize this week?...\" in 3ms",
+      "createdAt": "2026-10-13T01:54:53.731Z"
+    }
+  ]
+}
